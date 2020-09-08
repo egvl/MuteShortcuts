@@ -1,0 +1,45 @@
+{
+
+  "manifest_version": 2,
+  "name": "MuteShortcuts",
+  "version": "1.0",
+  "description": "Adds mute functionalities via hotkeys",
+  "author": "egvl",
+
+  "commands": {
+    "mute-audible": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+M"
+      },
+      "description": "Mute all audible tabs"
+    },
+    "unmute-all": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      },
+      "description": "Unmute/reset all tabs"
+    },
+    "mute-site": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+I"
+      },
+      "description": "Mute specific site"
+    },
+    "go-to-sound": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L"
+      },
+      "description": "Go to an audible tab"
+    }
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "menus"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
