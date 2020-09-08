@@ -1,4 +1,4 @@
-# MuteShortcuts
+# Mute Shortcuts
 
 ##### *Firefox extension available at [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/mute-shorcuts/)*
 
