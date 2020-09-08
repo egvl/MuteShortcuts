@@ -1,11 +1,11 @@
 # MuteShortcuts
-Adds mute functionalities via hotkeys
 
-(Firefox extension)
+##### *Firefox extension available at [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/mute-shorcuts/)*
 
-Similar to Chrome and Safari mute options.
+This Firefox extension adds mute functionalities via hotkeys
+similar to Chrome and Safari mute options.
 
-Unintrusive, simple to use, useful.
+It is meant to be unintrusive and simple to use.
 
 Now you can:
 - Mute/Unmute all audible tabs     (ctrl+shift+M)
